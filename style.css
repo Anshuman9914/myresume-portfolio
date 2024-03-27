@@ -1,0 +1,189 @@
+body{
+    display: block;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    padding: 0px;
+    margin: 0;
+}
+
+
+.cloud-1{
+
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15%;
+    
+    
+
+}
+
+.wave{
+    margin-top: -100px;
+    
+    
+}
+
+.first-container{
+    background-color: #41C9E2;
+    padding-top: 30px ;
+}
+
+.cloud-2{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    
+}
+
+h1{
+    color: #008DDA;
+    font-size: 5.625rem;
+    font-family: "Sacramento", cursive;
+}
+
+h2{
+    color: #008DDA;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.profile-photo{
+    margin-top: 120px;
+}
+
+.hello{
+    color: whitesmoke;
+}
+
+.intro{
+    margin: 30px;
+}
+
+.profile-container{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 80px;
+    background-color: #41C9E2;
+    border-radius: 20px;
+    padding-bottom: 1px;
+}
+
+.my-work{
+    width:15%;
+    background-color: #4CCD99;
+    color: whitesmoke;
+    margin-left: 43%;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    
+}
+
+.my-work-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.tinder{
+    background-color:whitesmoke ;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+h4{
+    color: black;
+    margin-right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mondrian{
+    background-color:whitesmoke ;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    margin-left: 15px;
+    
+}
+
+.portfolio{
+    background-color:whitesmoke ;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px; 
+    margin-right: 80px; 
+}
+
+.work{
+    margin-top: 50px;
+    background-color: #41C9E2;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+
+.touch{
+    color: #ACE2E1;
+}
+
+.touch-text{
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.btn{
+    color: whitesmoke;
+    background-color: #008DDA;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    text-decoration-line: none;
+}
+
+.last-container{
+    margin-top: 100px;
+    background-color:#41C9E2 ;
+    padding-bottom: 30px;
+    padding-top: 50px;
+   
+}
+
+p{
+    color: whitesmoke;
+    font-family:"Merriweather", serif ;
+    margin-right: 10px;
+    
+}
+
+.footer-link{
+    color: #008DDA;
+    text-decoration-line: none;
+    padding-right: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+   
+    .my-work-container{
+        display: block;
+       
+    }
+    .tinder{
+       padding: 0;
+       margin: 0;
+    }
+    .mondrian{
+        padding: 0;
+        margin: 0;
+    }
+    .portfolio{
+        padding: 0;
+        margin: 0;
+    }
+    h4{
+        margin-left: 30px;
+        padding-top:10px ;
+    }
+  }
+
+
